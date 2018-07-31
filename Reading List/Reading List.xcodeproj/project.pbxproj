@@ -43,6 +43,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BC4E880211103CD006A4D0A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BC4E8762110F167006A4D0A /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BC4E881211103D5006A4D0A /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BC4E8782110F1C0006A4D0A /* BookController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		3BC4E882211103DB006A4D0A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BC4E87E2110F914006A4D0A /* BookDetailViewController.swift */,
+				3BC4E87C2110F7A5006A4D0A /* ReadingListTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3BC4E88321110409006A4D0A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4669416C2110E22B00E7FF73 /* Main.storyboard */,
+				3BC4E87A2110F798006A4D0A /* BookTableViewCell.swift */,
+				466941712110E22B00E7FF73 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BC4E88421110414006A4D0A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				466941682110E22A00E7FF73 /* AppDelegate.swift */,
+				4669416F2110E22B00E7FF73 /* Assets.xcassets */,
+				466941742110E22B00E7FF73 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		4669415C2110E22A00E7FF73 = {
 			isa = PBXGroup;
 			children = (
@@ -62,16 +107,11 @@
 		466941672110E22A00E7FF73 /* Reading List */ = {
 			isa = PBXGroup;
 			children = (
-				466941682110E22A00E7FF73 /* AppDelegate.swift */,
-				3BC4E8762110F167006A4D0A /* Book.swift */,
-				3BC4E8782110F1C0006A4D0A /* BookController.swift */,
-				3BC4E87C2110F7A5006A4D0A /* ReadingListTableViewController.swift */,
-				3BC4E87E2110F914006A4D0A /* BookDetailViewController.swift */,
-				3BC4E87A2110F798006A4D0A /* BookTableViewCell.swift */,
-				4669416C2110E22B00E7FF73 /* Main.storyboard */,
-				4669416F2110E22B00E7FF73 /* Assets.xcassets */,
-				466941712110E22B00E7FF73 /* LaunchScreen.storyboard */,
-				466941742110E22B00E7FF73 /* Info.plist */,
+				3BC4E88421110414006A4D0A /* Resources */,
+				3BC4E880211103CD006A4D0A /* Models */,
+				3BC4E881211103D5006A4D0A /* ModelControllers */,
+				3BC4E882211103DB006A4D0A /* ViewControllers */,
+				3BC4E88321110409006A4D0A /* Views */,
 			);
 			path = "Reading List";
 			sourceTree = "<group>";
@@ -297,8 +337,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
-				INFOPLIST_FILE = "Reading List/Info.plist";
+				DEVELOPMENT_TEAM = MC2BEA2U5Y;
+				INFOPLIST_FILE = "$(SRCROOT)/Reading List/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,8 +355,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
-				INFOPLIST_FILE = "Reading List/Info.plist";
+				DEVELOPMENT_TEAM = MC2BEA2U5Y;
+				INFOPLIST_FILE = "$(SRCROOT)/Reading List/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
